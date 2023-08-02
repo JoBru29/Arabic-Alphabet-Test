@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arabic Letters Learning</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id="welcome-page">
+      <h1>Very very basic Arabic Alphabet Test</h1>
+      <p>Hello! I'm Jo, and I'm from Mauritius - currently living and working in Dubai.</p>
+      <p>I'm a passionate gamer and I've decided to work on a personal project of mine - learning Arabic. Since all the tests online required, well ... money, I wanted to add some fun gamification aspect to my learning experience by creating my own test, learn some code along the way and make the test available to you as well (for free, of course).</p>
+      <p>I'll work on refining it and adding more fun elements as I continue my learning journey.</p>
+      <p>I hope you enjoy and I'm open to feedback! :)</p>
+      <p>Disclaimer: this whole thing was made possible with the help of ChatGPT.</p>
+
+
+      <button id="begin-btn">Begin the test</button>
+    </div>
+
+    <div id="question" style="display: none;">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/daad.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/daal.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/dhaa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/dhaal.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/f-aa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/gh-ain.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/ha.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/haa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/jeem.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/alif.png">
+      <img id="letter-image" src="https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/Arabic%20Letters/Alphabet/baa.png">
+
+
+      <div id="options">
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+        <button class="option"></button>
+      </div>
+      <div id="feedback"></div>
+      <img id="feedback-gif" src="">
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="grade"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
