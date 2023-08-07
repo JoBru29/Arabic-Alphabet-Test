@@ -27,7 +27,7 @@ function getRandomQuestion() {
   const randomQuestion = availableQuestions.splice(randomIndex, 1)[0];
 
   return randomQuestion;
-} 
+}
 
 function displayQuestion() {
   currentQuestion = getRandomQuestion();
