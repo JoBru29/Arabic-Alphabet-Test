@@ -1,18 +1,26 @@
 const letters = [
   {
     letter: 'أ',
-    image: 'path/to/letter1.png',
-    correctOptionImage: 'path/to/correct1.png',
-    correctFeedbackGif: 'path/to/correct-feedback1.gif',
-    incorrectFeedbackGif: 'path/to/incorrect-feedback1.gif',
+    image: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/Arabic%20Letters/Alphabet/alif.png',
+    correctOptionImage: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
+    correctFeedbackGif: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
+    incorrectFeedbackGif: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
   },
   {
     letter: 'ب',
-    image: 'path/to/letter2.png',
-    correctOptionImage: 'path/to/righ.png',
-    correctFeedbackGif: 'path/to/correct-feedback2.gif',
-    incorrectFeedbackGif: 'path/to/incorrect-feedback2.gif',
+    image: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/Arabic%20Letters/Alphabet/baa.png',
+    correctOptionImage: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
+    correctFeedbackGif: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
+    incorrectFeedbackGif: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
   },
+  {
+    letter: 'ت',
+    image: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/Arabic%20Letters/Alphabet/taa.png',
+    correctOptionImage: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
+    correctFeedbackGif: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
+    incorrectFeedbackGif: 'https://raw.githubusercontent.com/JoBru29/Arabic-Alphabet-Test/main/docs/right%20answer.gif',
+  },
+
   // Add more letters and options as needed
 ];
 
